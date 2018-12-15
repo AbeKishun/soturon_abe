@@ -1,0 +1,37 @@
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.4.27)  3 DEC 2018 22:50
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**mediabb.sty
+(./mediabb.sty
+pLaTeX2e <2017/05/05> (based on LaTeX2e <2017-04-15>)
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `mediabb'.
+
+Package: mediabb 2013/03/12 v1.10 iNOUE Koich! <inoue@ma.ns.tcu.ac.jp>
+./mediabb.sty:3: You can't use `\spacefactor' in vertical mode.
+\@->\spacefactor 
+                 \@m {}
+l.3 \@
+      ifpackageloaded{graphics}{}{\RequirePackage[dvipdfm]{graphicx}}
+? 
+./mediabb.sty:3: Emergency stop.
+\@->\spacefactor 
+                 \@m {}
+l.3 \@
+      ifpackageloaded{graphics}{}{\RequirePackage[dvipdfm]{graphicx}}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 493653
+ 51 string characters out of 6148874
+ 54385 words of memory out of 5000000
+ 3691 multiletter control sequences out of 15000+600000
+ 7511 words of font info for 31 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 7i,0n,4p,100b,10s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
