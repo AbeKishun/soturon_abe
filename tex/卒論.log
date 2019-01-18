@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.4.27)  9 JAN 2019 19:47
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.4.27)  15 JAN 2019 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -758,6 +758,39 @@ LaTeX Warning: Label `fig:no' multiply defined.
 
 LaTeX Warning: Label `fig:no' multiply defined.
 
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:ank2' multiply defined.
+
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:12ank' multiply defined.
+
+
+LaTeX Warning: Label `fig:no' multiply defined.
+
+
+LaTeX Warning: Label `fig:12ank' multiply defined.
+
 )
 \openout1 = `å^^8d^^92èŒ«^^96.aux'.
 
@@ -858,6 +891,16 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 10.
+LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 12.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 12.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 12.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 12.
 LaTeX Font Info:    Font shape `JT1/hmc/bx/n' will be
 (Font)              scaled to size 9.24683pt on input line 12.
 LaTeX Font Info:    Font shape `JY1/hmc/bx/n' will be
@@ -866,100 +909,152 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.0pt on input line 12.
-[1
-
-]
-File: 02.pdf Graphic file (type pdf)
- <02.pdf>
-LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 30.
-LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 30.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 30.
-File: 03.pdf Graphic file (type pdf)
- <03.pdf>
-LaTeX Font Info:    Font shape `JT1/hmc/bx/n' will be
-(Font)              scaled to size 11.09619pt on input line 42.
-LaTeX Font Info:    Font shape `JY1/hmc/bx/n' will be
-(Font)              scaled to size 11.09619pt on input line 42.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 42.
-File: 01.pdf Graphic file (type pdf)
- <01.pdf> [2]
-File: 04.pdf Graphic file (type pdf)
- <04.pdf> [3]
-File: hash.pdf Graphic file (type pdf)
- <hash.pdf> [4]
-File: kyotu.pdf Graphic file (type pdf)
- <kyotu.pdf>
-[5]
-File: 05.pdf Graphic file (type pdf)
- <05.pdf>
-File: 062.pdf Graphic file (type pdf)
- <062.pdf> [6] [7]
-File: kokai.pdf Graphic file (type pdf)
- <kokai.pdf> [8]
-File: shomei.pdf Graphic file (type pdf)
- <shomei.pdf> [9]
-File: noimage.pdf Graphic file (type pdf)
- <noimage.pdf>
-[10] [11]
-File: timeline.pdf Graphic file (type pdf)
- <timeline.pdf> [12]
-LaTeX Font Info:    Font shape `JT1/utfj/m/2' will be
-(Font)              scaled to size 9.24683pt on input line 266.
-LaTeX Font Info:    Font shape `JY1/utfj/m/2' will be
-(Font)              scaled to size 9.24683pt on input line 266.
- [13]
-LaTeX Font Info:    Try loading font information for T1+fnc on input line 289.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fouriernc/t1fnc.fd
+ (./å^^8d^^92èŒ«^^96.toc
+LaTeX Font Info:    Try loading font information for T1+fnc on input line 3.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/fouriernc/t1fnc.fd
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 289.
+(Font)              scaled to size 9.29993pt on input line 3.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 289.
+(Font)              scaled to size 7.06795pt on input line 3.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 289.
+(Font)              scaled to size 5.57996pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 289.
+(Font)              scaled to size 9.19998pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 289.
+(Font)              scaled to size 6.99199pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 289.
+(Font)              scaled to size 5.51999pt on input line 3.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 7.02759pt on input line 289.
+(Font)              scaled to size 7.02759pt on input line 3.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 289.
-LaTeX Font Info:    Try loading font information for FML+fncm on input line 289
-.
+(Font)              scaled to size 5.5481pt on input line 3.
+LaTeX Font Info:    Try loading font information for FML+fncm on input line 3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 289.
+(Font)              scaled to size 9.19998pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 289.
+(Font)              scaled to size 6.99199pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 289.
- [14]
-[15] [16] (./å^^8d^^92èŒ«^^96.aux)
+(Font)              scaled to size 5.51999pt on input line 3.
+ [1
+
+])
+\tf@toc=\write4
+\openout4 = `å^^8d^^92èŒ«^^96.toc'.
+
+
+[2] [3]
+File: 02.pdf Graphic file (type pdf)
+ <02.pdf>
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 32.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 32.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 32.
+File: 03.pdf Graphic file (type pdf)
+ <03.pdf>
+LaTeX Font Info:    Font shape `JT1/hmc/bx/n' will be
+(Font)              scaled to size 11.09619pt on input line 44.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' will be
+(Font)              scaled to size 11.09619pt on input line 44.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 44.
+File: 01.pdf Graphic file (type pdf)
+ <01.pdf> [4]
+File: 04.pdf Graphic file (type pdf)
+ <04.pdf> [5]
+File: hash.pdf Graphic file (type pdf)
+ <hash.pdf> [6]
+File: kyotu.pdf Graphic file (type pdf)
+ <kyotu.pdf>
+[7]
+File: 05.pdf Graphic file (type pdf)
+ <05.pdf>
+File: 062.pdf Graphic file (type pdf)
+ <062.pdf> [8]
+File: kokai.pdf Graphic file (type pdf)
+ <kokai.pdf> [9]
+File: shomei.pdf Graphic file (type pdf)
+ <shomei.pdf> [10]
+File: SSL.pdf Graphic file (type pdf)
+ <SSL.pdf>
+Overfull \hbox (14.2294pt too wide) in paragraph at lines 202--203
+ [][] 
+ []
+
+[11]
+File: block1.pdf Graphic file (type pdf)
+ <block1.pdf> [12]
+File: P2P.pdf Graphic file (type pdf)
+ <P2P.pdf> [13] [14]
+File: block2.pdf Graphic file (type pdf)
+ <block2.pdf>
+File: nonce.pdf Graphic file (type pdf)
+ <nonce.pdf>
+Overfull \hbox (14.2294pt too wide) in paragraph at lines 314--315
+ [][] 
+ []
+
+[15]
+File: blockk.pdf Graphic file (type pdf)
+ <blockk.pdf>
+Overfull \hbox (14.2294pt too wide) in paragraph at lines 323--324
+ [][] 
+ []
+
+[16]
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 3
+39.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 339.
+ [17]
+File: timeline.pdf Graphic file (type pdf)
+
+<timeline.pdf> [18]
+LaTeX Font Info:    Font shape `JT1/utfj/m/2' will be
+(Font)              scaled to size 9.24683pt on input line 401.
+LaTeX Font Info:    Font shape `JY1/utfj/m/2' will be
+(Font)              scaled to size 9.24683pt on input line 401.
+ [19] [20] [21]
+File: 12test.pdf Graphic file (type pdf)
+ <12test.pdf> [22]
+File: 3test.pdf Graphic file (type pdf)
+ <3test.pdf> [23]
+File: 123test.pdf Graphic file (type pdf)
+
+<123test.pdf> [24] [25] [26] [27]
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 639
+.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 639.
+ [28]
+(./å^^8d^^92èŒ«^^96.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8482 strings out of 493653
- 113698 string characters out of 6148874
- 195851 words of memory out of 5000000
- 11857 multiletter control sequences out of 15000+600000
- 36249 words of font info for 79 fonts, out of 8000000 for 9000
+ 8641 strings out of 493653
+ 116193 string characters out of 6148874
+ 197887 words of memory out of 5000000
+ 11990 multiletter control sequences out of 15000+600000
+ 40146 words of font info for 84 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 43i,9n,70p,1559b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,10n,70p,2048b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on å^^8d^^92èŒ«^^96.dvi (16 pages, 22976 bytes).
+Output written on å^^8d^^92èŒ«^^96.dvi (28 pages, 62068 bytes).
