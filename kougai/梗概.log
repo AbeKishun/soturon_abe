@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.4.27)  16 JAN 2019 21:25
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.4.27)  19 JAN 2019 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,46 +705,49 @@ File: total.pdf Graphic file (type pdf)
 
 <total.pdf>
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 6
-8.
+6.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 68.
+(Font)              scaled to size 10.0pt on input line 66.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 81.
+(Font)              scaled to size 9.24683pt on input line 78.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 81.
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 81.
+(Font)              scaled to size 9.24683pt on input line 78.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 78.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 81.
+(Font)              scaled to size 10.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 81.
+(Font)              scaled to size 9.29993pt on input line 78.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 81.
+(Font)              scaled to size 7.06795pt on input line 78.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 81.
+(Font)              scaled to size 5.57996pt on input line 78.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 81.
+(Font)              scaled to size 9.19998pt on input line 78.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 81.
+(Font)              scaled to size 6.99199pt on input line 78.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 81.
+(Font)              scaled to size 5.51999pt on input line 78.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 7.02759pt on input line 81.
+(Font)              scaled to size 7.02759pt on input line 78.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 81.
+(Font)              scaled to size 5.5481pt on input line 78.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 81.
+(Font)              scaled to size 9.19998pt on input line 78.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 81.
+(Font)              scaled to size 6.99199pt on input line 78.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 81.
+(Font)              scaled to size 5.51999pt on input line 78.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1
 
 
@@ -759,4 +762,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  60i,8n,94p,1004b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 罌^^97网^^82.dvi (1 page, 7356 bytes).
+Output written on 罌^^97网^^82.dvi (1 page, 7840 bytes).
