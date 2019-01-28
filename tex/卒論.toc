@@ -37,8 +37,8 @@
 \contentsline {subsection}{\numberline {8.1}アンケート結果と分析対象者}{21}
 \contentsline {subsection}{\numberline {8.2}中間試験の平均点と点数換算}{21}
 \contentsline {subsection}{\numberline {8.3}小テストの点数}{22}
-\contentsline {subsubsection}{\numberline {8.3.1}前提知識となる単元}{22}
-\contentsline {subsubsection}{\numberline {8.3.2}前提知識を用いた単元}{23}
+\contentsline {subsubsection}{\numberline {8.3.1}前提単元}{22}
+\contentsline {subsubsection}{\numberline {8.3.2}主単元}{23}
 \contentsline {subsubsection}{\numberline {8.3.3}小テスト全体}{24}
 \contentsline {section}{\numberline {9}考察}{25}
 \contentsline {subsection}{\numberline {9.1}実験方法}{25}

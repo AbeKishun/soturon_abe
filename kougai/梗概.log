@@ -537,28 +537,35 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/here/here.sty))
-LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 10.
-LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 10.
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 10
-.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
-File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
-)
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
- (./罌^^97网^^82.aux)
-\openout1 = `罌^^97网^^82.aux'.
+./罌�网�.tex:5: LaTeX Error: Missing \begin{document}.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \includegraphics
+                    []{梗概.pdf}
+? 
+./罌�网�.tex:5: Emergency stop.
+ ...                                              
+                                                  
+l.5 \includegraphics
+                    []{梗概.pdf}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 7575 strings out of 493653
+ 106586 string characters out of 6148874
+ 162397 words of memory out of 5000000
+ 11091 multiletter control sequences out of 15000+600000
+ 9135 words of font info for 37 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 60i,0n,94p,878b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+/cmsy/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
