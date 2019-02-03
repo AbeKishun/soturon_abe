@@ -2,14 +2,6 @@
 \usepackage{semi}
 \begin{document}
 
-\日付{2019/1/15}
-\氏名{阿部　希駿}
-\タイトル{卒業研究}
-
-\semi
-
-\tableofcontents
-
 \newpage
 \section{緒言}
 
@@ -38,7 +30,7 @@
 \label{fig:01}
 \end{figure} 
 
-
+\newpage
 \subsection{積み上げ型教科}
 積み上げ型教科とは既に学習した知識を使うことを前提として次の単元を学習する教科で，主に数学や英語が該当する．
 図\ref{fig:04}では数学を例としてあげている．この例ではまず「正の数・負の数」を学習し，それを前提単元として「文字式」を学習する．
@@ -48,7 +40,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=5cm]{04.pdf}
+\includegraphics[width=4cm]{04.pdf}
 \caption{積み上げ型教科の例}
 \label{fig:04}
 \end{figure} 
@@ -138,15 +130,30 @@ SHA-1が改良されて作られたハッシュ関数で，SHA-224，SHA-256，S
 
 ハッシュ関数は改ざんや破損の検知など，ファイルの同一性確認に使用される．
 
+図\ref{fig:hash1}は2つのハッシュ値を比較して一致した時と不一致の時の図である．
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=11cm]{hash.pdf}
 \caption{ハッシュを用いたファイルの同一性確認の流れ}
-\label{fig:no}
+\label{fig:hash1}
 \end{figure} 
 
 \subsubsection{パスワードの管理}
+ハッシュ関数はWEBサイトなどでパスワードを用いる際に使われる．パスワードを平文で管理するとパスワードが漏洩したときに第三者に不正にアクセスされる危険がある．そのためパスワードをハッシュ化し，ハッシュ値の状態で管理することで漏洩しても不正ログインを防ぐことができる．
+
+しかし同じデータをハッシュ化すると同じハッシュ値になることから，あらかじめ使われやすい単語などをハッシュ化しデータベース化し，不正ログインを試みようとするサイトがある．そのため以下のような手段が取られている．
+
+\begin{description}
+\item[saltを加える]\ \\
+平文のパスワードにsaltと呼ばれるランダムな文字列を加えることによって，1つの文字列に対するハッシュ値の種類を増やすことで，データベースを作成しておく攻撃を困難にする．
+
+\item[ハッシュ関数を繰り返す]\ \\ 
+平文のパスワードをハッシュ化して出たハッシュ値を，さらにハッシュ化することによって新たなハッシュ値を生成することができる．
+
+\end{description}
+
+
 
 
 \newpage
@@ -541,34 +548,47 @@ Aクラス76名，Bクラス76名，計152名とする．\\
 \subsubsection{暗号}
 
 
-「暗号の講義はわかりやすかったか」という質問の結果は以下のようになった．
+「暗号の講義はわかりやすかったか」という質問の結果は図\ref{fig:anank}のようになった．
+
+両クラス共にわかりやすいと答えた学生が約60％となり，とてもわかりやすいと答えた学生と合わせて約80
+％という結果となった．\\
 \begin{figure}[H]
 \centering
 \includegraphics[width=12cm]{anka1.pdf}
-\label{fig:time}
+\caption{暗号の講義についてのアンケート結果}
+\label{fig:anank}
 \end{figure}
 
-
+\newpage
 \subsubsection{ハッシュ}
 
+「ハッシュの講義はわかりやすかったか」という質問の結果は図\ref{fig:hashank}のようになった．
 
-「ハッシュの講義はわかりやすかったか」という質問の結果は以下のようになった．
+両クラス共に「わかりにくい」と答えた学生の割合が一番高く，
+「わかりやすい」と答えた学生の割合が次に高いという結果になった．
+また「とてもわかりにくい」と答えた学生はAクラスでは2％，Bクラスでは0％となり，
+暗号の講義と比べ両クラス共にわかりにくいと感じる学生が多いという結果になった．\\
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=12cm]{ankh1.pdf}
-\label{fig:time}
+\caption{ハッシュの講義についてのアンケート結果}
+\label{fig:hashank}
 \end{figure}
 
 
 \newpage
 \subsubsection{ブロックチェーン}
 
+「ブロックチェーンの講義はわかりやすかったか」という質問の結果は図\ref{fig:blockank}のようになった．
 
-「ブロックチェーンの講義はわかりやすかったか」という質問の結果は以下のようになった．
+両クラス共に「わかりにくい」と答えた学生の割合が一番高く，
+「わかりやすい」と答えた学生の割合が次に高くなり，ハッシュの講義に近い結果となった．\\
 \begin{figure}[H]
 \centering
 \includegraphics[width=12cm]{ankb1.pdf}
-\label{fig:time}
+\caption{ブロックチェーンの講義についてのアンケート結果}
+\label{fig:blockank}
 \end{figure}
 
 
@@ -578,15 +598,19 @@ Aクラス76名，Bクラス76名，計152名とする．\\
 \newpage
 \subsection{小テストの点数}
 \subsubsection{前提単元}
-\UTF{2460}RSA暗号の特徴　\UTF{2461}ハッシュと暗号の違い　の点数分布と平均点は以下のようになった．
+前提単元は5点満点で，点数分布は図\ref{fig:zenten}のようになった．
+Aクラスは4点の学生が一番多く約40％で，点数が低くなるにつれて割合が低くなった．
+Bクラスは3点の学生が一番多く約30％で，Aクラスと同様に点数が低くなるにつれて割合が低くなったが，Aクラスよりも5点の学生の割合はわずかに高かった．また両クラス共に0点の学生はいなかった．
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=12cm]{12test.pdf}
 \caption{前提単元の点数分布}
-\label{fig:no}
+\label{fig:zenten}
 \end{figure} 
 
+また前提単元の各クラスの偏差値と平均点は表\ref{fig:12ank}のようになった．
+平均点はAクラスの方がわずかに高くなったが，中間試験の偏差値と比較したところほとんど差は見られなかった．\\
 \begin{table}[H]
 \centering
 \caption{前提単元の偏差値と平均点}
@@ -604,19 +628,23 @@ Aクラス76名，Bクラス76名，計152名とする．\\
 
 
 
-平均点は仮説を用いていないAクラスの方がわずかに高くなったが，中間試験の点数と比較したところほとんど差は見られなかった．
+
 
 \newpage
 \subsubsection{主単元}
-\UTF{2462}ブロックチェーンの仕組み　の点数分布と平均点は以下のようになった．
+主単元は5点満点で，点数分布は図\ref{fig:shuten}のようになった．
+両クラス共に3点の学生が一番多く，4点以上の学生は人数が少なくなった．
+Aクラスはまた両クラス共に0点の学生はいなかった．
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=12cm]{3test.pdf}
 \caption{主単元の点数分布}
-\label{fig:no}
+\label{fig:shuten}
 \end{figure} 
 
+また主単元の各クラスの偏差値と平均点は表\ref{fig:3ank}のようになった．
+平均点はAクラスの方がわずかに高くなった．また中間試験の偏差値と比較してもAクラスの方が高くなった．\\
 
 \begin{table}[H]
 \centering
@@ -630,25 +658,26 @@ Aクラス76名，Bクラス76名，計152名とする．\\
 中間試験                       &50.6  & 29.4 /50 & 49.3 &     28.0 /50                  \\ \hline
 \end{tabular}
 }
-\label{fig:12ank}
+\label{fig:3ank}
 \end{table}
-
-
-
-平均点，中間試験との差のどちらもAクラスの方がわずかに高くなるという結果となった．
-
 
 
 
 \newpage
 \subsubsection{小テスト全体}
+小テスト全体の点数は10点満点で，点数分布は図\ref{fig:allten}のようになった．
+両クラス共に6点の学生が一番多く，点数が高くなるにつれて人数が少なくなった．
+Aクラスは7点以上の割合が全体的に高く，Bクラスは4点以下の割合が全体的に高くなった．
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=12cm]{123test.pdf}
 \caption{小テスト全体の点数分布}
-\label{fig:no}
+\label{fig:allten}
 \end{figure}
+
+小テスト全体の偏差値と平均点は表\ref{fig:allank}のようになった．
+平均点はAクラスの方がわずかに高くなった．また中間試験の偏差値と比較してもAクラスの方が高くなった．\\
 
 \vspace{1zh}
 \begin{table}[H]
@@ -663,10 +692,9 @@ Aクラス76名，Bクラス76名，計152名とする．\\
 中間試験                       &50.6  & 29.4 /50 & 49.3 &     28.0 /50                  \\ \hline
 \end{tabular}
 }
-\label{fig:12ank}
+\label{fig:allank}
 \end{table}
 
-5点以上はどちらのクラスにおいても同じような得点分布の形となった．5点未満は仮説を用いたBクラスの人数が多くなっている．
  
 
 
